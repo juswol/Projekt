@@ -8,7 +8,7 @@ dane
 #Dane:
 library(dplyr)
 krosno <- filter(dane, station == "KROSNO")
-krosno
+krosno[krosno$mies == 8 ]
 
 #średnia temp stycznia i lipca w latach 2000-2020
 
